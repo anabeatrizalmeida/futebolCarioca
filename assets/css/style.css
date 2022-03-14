@@ -42,9 +42,9 @@ section#img {
 #times {
   flex-wrap: wrap;
   width: 100%;
-  color:rgb(9, 243, 243);
+  color: rgb(9, 243, 243);
   font-size: 2rem;
-  font-weight:500;
+  font-weight: 500;
   margin-top: 4rem;
 }
 
@@ -68,16 +68,6 @@ section#img {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 100;
-}
-
-section#audios {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 100;
-  margin-top: 2rem;
 }
 
 section#botao button {
