@@ -81,6 +81,12 @@ section#botao button {
   margin-top: 3rem;
   width: 20%;
   background-color: #0c1c31;
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+section#botao button:hover {
+  transform: scale(1.1);
 }
 
 #alterar {
