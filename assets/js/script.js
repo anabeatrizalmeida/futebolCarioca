@@ -60,16 +60,5 @@ elementoBotao.addEventListener("click", () => {
       "./assets/img/botafogo.png"; /* altera a imagem do time. */
     elementoAudio.src =
       "./assets/audio/botafogo.mp3"; /* altera o audio do time. */
-    elementoBotao.value = "inicio"; /* altera o valor do botão.*/
-  } else if(elementoBotao.value == "inicio"){
-    elementoTime.innerText =
-      "Os grandes do Rio"; /*altera o nome do time (texto do elemento time).*/
-    elementoApelido.innerText =
-      "..."; /*altera o apelido do time (texto do elemento apelido).*/
-    elementoImagem.src =
-      "./assets/img/osGrandesDoRio.jpg"; /* altera a imagem do time. */
-    elementoAudio.src =
-      "./assets/audio/maracana.mp3"; /* altera o audio do time. */
-    elementoBotao.value = "flamengo"; /* altera o valor do botão.*/
-  }
+  } 
 });
