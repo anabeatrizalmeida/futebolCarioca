@@ -107,8 +107,8 @@ elementoBotao.addEventListener("click", () => {
       "..."; /*altera o ano de fundação do time (texto do elemento fundado).*/
     elementoTitulo.innerText =
       "..."; /*altera os títulos do time (texto do elemento titulo).*/
-    elementoImagem.src =
-      "./assets/img/times.png"; /* altera a imagem do time. */
+    elementoImagem.src = 
+    "./assets/img/times.png"; /* altera a imagem do time. */
     elementoAudio.src =
       "./assets/audio/maracana.mp3"; /* altera o audio do time. */
     elementoBotao.value = "flamengo"; /* altera o valor do botão.*/
