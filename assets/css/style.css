@@ -39,13 +39,19 @@ section#img {
   padding: 3rem;
 }
 
+section#img img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px #ffffff50;
+}
+
 #times {
   flex-wrap: wrap;
   width: 100%;
   color: rgb(9, 243, 243);
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 4rem;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
 }
 
 #time {
@@ -70,6 +76,51 @@ section#img {
   font-weight: 100;
 }
 
+#mascotes {
+  flex-wrap: wrap;
+  color: rgb(9, 243, 243);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+#mascote {
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#fundados {
+  flex-wrap: wrap;
+  color: rgb(9, 243, 243);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+#fundado {
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#titulos {
+  flex-wrap: wrap;
+  color: rgb(9, 243, 243);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+#titulo {
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 section#botao button {
   display: flex;
   margin: 0 auto;
@@ -77,18 +128,18 @@ section#botao button {
   flex-wrap: wrap;
   border: solid 2px #fff;
   color: #fff;
-  padding: .6rem;
+  padding: 1rem;
   margin-top: 3rem;
-  width: 20%;
   background-color: #0c1c31;
 }
 
 section#botao button:hover {
   transform: scale(1.1);
+  box-shadow: 0px 0px 10px 1px #ffffff50;
 }
 
 #alterar {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 footer {
